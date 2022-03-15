@@ -97,14 +97,17 @@
 	      <id>nexus_global</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>${NexusRelease}</url>
+	      <username>${username}</username>
+       	      <password>${password}</password>	    
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus_global</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>${NexusSnapshot}</url>
+	      <username>${username}</username>
+       	      <password>${password}</password>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
 	
 	<build>
