@@ -94,15 +94,15 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus_global</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-release/</url>
+	      <url>${NexusRelease}</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus_global</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-snapshot/</url>
+	      <url>${NexusSnapshot}</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
